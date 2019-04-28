@@ -9,20 +9,20 @@ The book is downloadable here: https://allesinalab.uchicago.edu/wp-content/uploa
 
 II. Answer the following question. What does this do?   
 
-1. ls [A-Z]* ->  list directory contents alphabetically
-2. cp *.sh /tmp ->  copy files/directories from source to temporary files
-3. man pwd -> show manual/help with command 'pwd'
-4. cd ~ -> change to home directory
-5. mkdir -p /test1/test2/test3 -> make parent directory with directories test1, test2, test3
-6. cp -r /tmp . -> copy directories recursively from temporary files
-7. ls | less -> list items in directory and view directory 
-8. head -n 24 test.txt » abc.txt -> print first 24 lines of text with each header printing the text file name
-9. echo "aaa" > aaa.txt -> display string "aaa" into text file called aaa.txt
-10. ps -u sallesina -> report snapshot of current process to user ID 'sallesina'
-11. top -> display linus tasks
-12. ls | grep .sh | xargs mv /tmp -> list items in directory, print matching lines, move lines to temporary files
-13. du -sk /home/* | sort -r -n | head -10 -> estimate and show only totals of storage space of home directory, sort in reverse numerical order, display 1st 10 lines
-14. sort -r names.txt -> sort text file "names.txt" in reverse
+1. ls [A-Z]* ->  list directory contents alphabetically # Correct!
+2. cp *.sh /tmp ->  copy files/directories from source to temporary files # Correct!
+3. man pwd -> show manual/help with command 'pwd' # Correct!
+4. cd ~ -> change to home directory # Correct!
+5. mkdir -p /test1/test2/test3 -> make parent directory with directories test1, test2, test3 # Correct! But what is `-p` doing?
+6. cp -r /tmp . -> copy directories recursively from temporary files # Correct!
+7. ls | less -> list items in directory and view directory # Correct! But what is what format? less ?
+8. head -n 24 test.txt » abc.txt -> print first 24 lines of text with each header printing the text file name # Correct!
+9. echo "aaa" > aaa.txt -> display string "aaa" into text file called aaa.txt # Correct!
+10. ps -u sallesina -> report snapshot of current process to user ID 'sallesina' # Correct! Try this with your username in hoffman
+11. top -> display linus tasks # Correct! Agrain try this with in hoffman
+12. ls | grep .sh | xargs mv /tmp -> list items in directory, print matching lines, move lines to temporary files # Correct! You could be more specific about what `xargs` is doing
+13. du -sk /home/* | sort -r -n | head -10 -> estimate and show only totals of storage space of home directory, sort in reverse numerical order, display 1st 10 lines # Correct!
+14. sort -r names.txt -> sort text file "names.txt" in reverse # Correct!
 
 **IMPORTANT** 
 To submit your answers you must do the following:
